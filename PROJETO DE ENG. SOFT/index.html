@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Engenharia de Software</title>
+    <meta name="description"
+        content="Projeto de Engenharia de Software solicitado pela instituição de ciências e tecnologia da Bahia!">
+</head>
+
+<body>
+    <header>
+        <h1>Ficha para análise de (in)segurança alimentar</h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend>
+                <h2>1. Questionário Socioeconômico</h2>
+            </legend>
+            <section>
+                <!--Pergunta 1-->
+
+                <h3>Nome:</h3>
+                <form>
+                    <input type="text" id="p1" name="pergunta1" placeholder="Digite o seu nome...">
+                </form>
+
+                <!--Pergunta 2-->
+                <h3>Idade:</h3>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite a sua idade...">
+                </form>
+
+                <!--Pergunta 3-->
+                <h3>Gênero:</h3>
+                <form>
+                    <input type="radio" value="Masculino" id="p3a" name="pergunta3">
+                    <label for="p3a">Masculino</label>
+
+                    <input type="radio" value="Feminino" id="p3b" name="pergunta3">
+                    <label for="p3b">Feminino</label>
+
+                    <input type="radio" value="Transgênero" id="p3c" name="pergunta3">
+                    <label for="p3c">Transgênero</label>
+
+                    <input type="radio" value="Não binário" id="p3d" name="pergunta3">
+                    <label for="p3d">Não binário</label>
+
+                    <p>Outro <input type="text" id="p3e" name="pergunta3" placeholder="Digite o gênero..."></p>
+                </form>
+
+                <!--Pergunta 4-->
+                <h3>Raça/cor:</h3>
+                <form>
+                    <input type="radio" value="Branco" id="p4a" name="pergunta4">
+                    <label for="p4a">Branco</label>
+
+                    <input type="radio" value="Preto" id="p4b" name="pergunta4">
+                    <label for="p4b">Preto</label>
+
+                    <input type="radio" value="Pardo" id="p4c" name="pergunta4">
+                    <label for="p4c">Pardo</label>
+
+                    <input type="radio" value="Povos originários" id="p4d" name="pergunta4">
+                    <label for="p4d">Povos originários</label>
+                </form>
+
+                <!--Pergunta 5-->
+                <h3>Escolaridade:</h3>
+                <form>
+                    <input type="radio" value="Ensino médio incompleto" id="p5a" name="pergunta5">
+                    <label for="p5a">Ensino médio incompleto</label>
+
+                    <input type="radio" value="Ensino médio completo" id="p5b" name="pergunta5">
+                    <label for="p5b">Ensino médio completo</label>
+
+                    <input type="radio" value="Graduação incompleta" id="p5c" name="pergunta5">
+                    <label for="p5c">Graduação incompleta</label>
+
+                    <input type="radio" value="Graduação completa" id="p5d" name="pergunta5">
+                    <label for="p5d">Graduação completa</label>
+
+                    <input type="radio" value="Ensino fundamental incompleto" id="p5e" name="pergunta5">
+                    <label for="p5e">Ensino fundamental incompleto</label>
+
+                    <input type="radio" value="Ensino fundamental completo" id="p5f" name="pergunta5">
+                    <label for="p5f">Ensino fundamental completo</label>
+
+                    <input type="radio" value="Prefiro não informar" id="p5g" name="pergunta5">
+                    <label for="p5e">Prefiro não informar</label>
+                </form>
+
+                <!--Pergunta 6-->
+                <h3>Estado civil:</h3>
+                <form>
+                    <input type="radio" value="Casado" id="p6a" name="pergunta6">
+                    <label for="p6a">Casado</label>
+
+                    <input type="radio" value="Viúvo" id="p6b" name="pergunta6">
+                    <label for="p6b">Viúvo</label>
+
+                    <input type="radio" value="Divorciado" id="p6c" name="pergunta6">
+                    <label for="p6c">Divorciado</label>
+
+                    <input type="radio" value="Separado" id="p6d" name="pergunta6">
+                    <label for="p6d">Separado</label>
+
+                    <input type="radio" value="Solteiro" id="p6e" name="pergunta6">
+                    <label for="p6e">Solteiro</label>
+
+                    <input type="radio" value="Prefiro não informar" id="p6f" name="pergunta6">
+                    <label for="p6f">Prefiro não informar</label>
+                </form>
+
+                <!--Pergunta 7-->
+                <h3>Emprego:</h3>
+                <form>
+                    <input type="radio" value="Meio período" id="p7a" name="pergunta7">
+                    <label for="p7a">Meio período</label>
+
+                    <input type="radio" value="Desempregado" id="p7b" name="pergunta7">
+                    <label for="p7b">Desempregado</label>
+
+                    <input type="radio" value="Incapaz de trabalhar" id="p7c" name="pergunta7">
+                    <label for="p7c">Incapaz de trabalhar</label>
+
+                    <input type="radio" value="Aposentado" id="p7d" name="pergunta7">
+                    <label for="p7d">Aposentado</label>
+
+                    <input type="radio" value="Prefiro não informar" id="p7e" name="pergunta7">
+                    <label for="p7e">Prefiro não informar</label>
+
+                    <p>Outro <input type="text" id="p7f" name="pergunta7" placeholder="Digite o emprego..."></p>
+                </form>
+
+                <!--Pergunta 8-->
+                <h3>Auxílios</h3>
+                <form>
+                    <input type="radio" value="Bolsa família" id="p8a" name="pergunta8">
+                    <label for="p8a">Bolsa família</label>
+
+                    <p>Outros, quais? <input type="text" id="p8b" name="pergunta8" placeholder="Digite os auxílios...">
+                    </p>
+                </form>
+
+                <!--Pergunta 9-->
+                <h3>Família e dependentes</h3>
+                <form>
+                    <input type="radio" value="Nenhum" id="p9a" name="pergunta9">
+                    <label for="p9a">Nenhum</label>
+
+                    <input type="radio" value="Um" id="p9b" name="pergunta9">
+                    <label for="p9b">Um</label>
+
+                    <input type="radio" value="Dois" id="p9c" name="pergunta9">
+                    <label for="p9c">Dois</label>
+
+                    <input type="radio" value="Três" id="p9d" name="pergunta9">
+                    <label for="p9d">Três</label>
+
+                    <input type="radio" value="Quatro" id="p9e" name="pergunta9">
+                    <label for="p9e">Quatro</label>
+
+                    <input type="radio" value="Cinco ou mais" id="p9f" name="pergunta9">
+                    <label for="p9f">Cinco ou mais</label>
+
+                    <input type="radio" value="Prefiro não informar" id="p9g" name="pergunta9">
+                    <label for="p9g">Prefiro não informar</label>
+                </form>
+
+                <!--Pergunta 10-->
+                <h3>Religião</h3>
+                <form>
+                    <input type="radio" value="Católico" id="p10a" name="pergunta10">
+                    <label for="p10a">Católico</label>
+
+                    <input type="radio" value="Evangélico" id="p10b" name="pergunta10">
+                    <label for="p10b">Evangélico</label>
+
+                    <input type="radio" value="Candomblé" id="p10c" name="pergunta10">
+                    <label for="p10c">Candomblé</label>
+
+                    <input type="radio" value="Umbanda" id="p10d" name="pergunta10">
+                    <label for="p10d">Umbanda</label>
+
+                    <input type="radio" value="Espírita" id="p10e" name="pergunta10">
+                    <label for="p10e">Espírita</label>
+
+                    <input type="radio" value="Nenhuma" id="p10f" name="pergunta10">
+                    <label for="p10f">Nenhuma</label>
+
+                    <input type="radio" value="Prefiro não informar" id="p10g" name="pergunta10">
+                    <label for="p10g">Prefiro não informar</label>
+
+                    <p>Outra <input type="text" id="p10h" name="pergunta10" placeholder="Digite a religião..."></p>
+
+                </form>
+        </fieldset>
+        </section>
+        <p> </p>
+        <fieldset>
+            <legend>
+                <h2>2. Coleta de marcadores de consumo alimentar</h2>
+            </legend>
+
+
+            <section>
+
+            </section>
+        </fieldset>
+        <!-- Botão de Envio -->
+        <button type="button" onclick="enviarFormulario()">Enviar</button>
+
+        </section>
+        </fieldset>
+        </form>
+    </main>
+
+    <!--Enviando informações do formúlario para o backend-->
+    <script>
+        function enviarFormulario() {
+            const form = document.getElementById("formulario");
+            const formData = new FormData(form);
+            const dados = {};
+
+            // Percorre os campos do formulário e armazena no objeto "dados"
+            formData.forEach((value, key) => {
+                if (!dados[key]) {
+                    dados[key] = value;
+                } else {
+                    // Se já existe, transforma em array para múltiplas respostas
+                    if (!Array.isArray(dados[key])) {
+                        dados[key] = [dados[key]];
+                    }
+                    dados[key].push(value);
+                }
+            });
+
+            // Envia os dados para o backend
+            fetch("https://seu-backend.com/api/cadastro", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(dados)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    alert("Formulário enviado com sucesso!");
+                    console.log("Resposta do servidor:", data);
+                })
+                .catch(error => {
+                    alert("Erro ao enviar o formulário.");
+                    console.error("Erro:", error);
+                });
+        }
+    </script>
+    <footer></footer>
+</body>
+
+</html>
