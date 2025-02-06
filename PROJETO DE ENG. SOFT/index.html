@@ -237,24 +237,6 @@
                 }
             });
 
-            // Envia os dados para o backend
-            fetch("https://seu-backend.com/api/cadastro", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(dados)
-            })
-                .then(response => response.json())
-                .then(data => {
-                    alert("Formulário enviado com sucesso!");
-                    console.log("Resposta do servidor:", data);
-                })
-                .catch(error => {
-                    alert("Erro ao enviar o formulário.");
-                    console.error("Erro:", error);
-                });
-        }
     </script>
     <footer></footer>
 </body>
