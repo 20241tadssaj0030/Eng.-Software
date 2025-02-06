@@ -434,7 +434,7 @@
             const formData = new FormData(form);
             const dados = {};
 
-            // Percorre os campos do formulário e armazena no objeto "dados"
+            // Percorre os campos do formulário e armazena no objeto "dados/respostas"
             formData.forEach((value, key) => {
                 if (!dados[key]) {
                     dados[key] = value;
