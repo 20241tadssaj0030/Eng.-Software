@@ -1,3 +1,7 @@
+
+//IGNORAR TUDO ABAIXO E REFAZER!
+
+
 public abstract class databank{
     
     //Informações padrão

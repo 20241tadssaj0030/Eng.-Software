@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos IFBA Login</title>
+    <link rel="stylesheet" href="/PROJETO DE ENG. SOFT/static/css/cadastro.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Página Inicial</a></li>
+                <li class="btnlogin"><a href="">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form id="tipocadastro">
+        <h1>Cadastro</h1>
+        <label for="selecionartipocadastro">Você é moderação ou usuário?</label>
+        <select name="selecionartipocadastro" id="selecionartipocadastro">
+            <option value="moderacao">Moderação</option>
+            <option value="usuario">Usuário</option>
+        </select>
+        <button type="submit">Continuar</button>
+    </form>
+    <h1 id="titulomoderacao">Criação de conta moderadora!</h1>
+    <h1 id="titulousuario">Cadastre-se Agora!</h1>
+
+    <form action="" id="moderacaocadastro" method="post">
+        <h1>Cadastro Moderação!</h1>
+        <p id="msgerromoderacao">AS SENHAS NÃO SÃO IGUAIS!</p>
+        <label for="emailmoderacao">E-mail</label>
+        <input type="email" name="emailmoderacao" id="emailmoderacao" placeholder="Digite o seu e-mail">
+        <label for="nomemoderacao">Nome</label>
+        <input type="text" name="nomemoderacao" id="nomemoderacao">
+        <label for="cpfmoderacao">CPF</label>
+        <input type="text" name="cpfmoderacao" id="cpfmoderacao">
+
+        <label for="senhamoderacao">Senha</label>
+        <input type="password" name="senhamoderacao" id="senhamoderacao">
+        <label for="repetirsenhamoderacao">Repita a sua senha</label>
+        <input type="password" name="repetirsenhamoderacao" id="repetirsenhamoderacao">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form action="" id="usuariocadastro" method="post">
+        <h1>Cadastro de Usuário!</h1>
+        <p id="msgerrousuario">AS SENHAS NÃO SÃO IGUAIS!</p>
+        <label for="emailusuario">E-mail</label>
+        <input type="email" name="emailusuario" id="emailusuario" placeholder="Digite o seu e-mail">
+        <label for="nomeusuario">Nome</label>
+        <input type="text" name="nomeusuario" id="nomeusuario">
+        <label for="cpfusuario">CPF</label>
+        <input type="text" name="cpfusuario" id="cpfusuario">
+
+        <label for="senhausuario">Senha</label>
+        <input type="password" name="senhausuario" id="senhausuario">
+        <label for="repetirsenhausuario">Repita a sua senha</label>
+        <input type="password" name="repetirsenhausuario" id="repetirsenhausuario">
+        <input type="submit" value="Enviar">
+    </form>
+
+
+
+    <footer>
+        <p> &copy; 2025 Projetos IFBA</p>
+    </footer>
+</body>
+
+</html>
