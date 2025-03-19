@@ -1,0 +1,31 @@
+@import url(/PROJETO\ DE\ ENG.\ SOFT/static/css/home.css);
+
+#divinicial, #divsecundaria, #divterciaria{
+    margin-top: 5%;
+}
+
+
+#consumo, #ebia{
+    display:none;
+}
+
+#formulariocompleto{
+  margin-left: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Mantém um à esquerda e outro à direita */
+    width: 100%; /* Garante que os botões ocupem toda a largura disponível */
+  }
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+

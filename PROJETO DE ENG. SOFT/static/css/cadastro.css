@@ -66,10 +66,11 @@
         display: none;
     }
     #moderacaocadastro, #usuariocadastro{
-    margin-top: 2%;
+    margin-top: 5%;
+    margin
     }
 
-    #titulousuario, #titulomoderacao, #moderacaocadastro, #usuariocadastro{
+    #titulousuario, #titulomoderacao, #moderacaocadastro{
         display: none;
     }
 
