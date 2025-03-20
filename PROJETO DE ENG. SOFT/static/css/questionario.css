@@ -1,7 +1,8 @@
 @import url(/PROJETO\ DE\ ENG.\ SOFT/static/css/home.css);
 
 #divinicial, #divsecundaria, #divterciaria{
-    margin-top: 5%;
+    margin-top: 3%;
+    padding: 10px 20px;
 }
 
 
@@ -19,13 +20,17 @@
     width: 100%; /* Garante que os botões ocupem toda a largura disponível */
   }
 
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
+  button{
+    border-top: 2%;
+    background-color: #4caf50;
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    padding: 10px 20px;
     font-size: 16px;
-  }
+    cursor: pointer;
+}
 
+button:hover{
+  background-color: #0c440e;
+  }

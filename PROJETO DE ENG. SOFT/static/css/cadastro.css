@@ -1,49 +1,12 @@
 @import url(/PROJETO\ DE\ ENG.\ SOFT/static/css/login.css);
 
 
-#titulomoderacao , #titulousuario{
+#titulousuario{
     text-align: center;
     margin-bottom: 1%;
     margin-top: 1%;
 }
 
-#tipocadastro{
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    padding: 20px;
-    max-width: 400px;
-    margin: 1% auto;
-    margin-bottom: 10%;
-    margin-top: 10%;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0,3);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#tipocadastro label{
-    font-size:18px;
-    margin-bottom: 10px;
-}
-
-#tipocadastro select {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 15px;
-    margin-bottom: 20px;
-    width: 200px;
-}
-
-#tipocadastro button{
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
 
 #tipocadastro button:hover{
     background-color: #0c440e;
@@ -59,18 +22,18 @@
         border: 2px solid #ccc;
     }
 
-    #msgerrousuario, #msgerromoderacao{
+    #msgerrousuario{
         color: red;
         font-size: 20px;
         font-weight: bold;
         display: none;
     }
-    #moderacaocadastro, #usuariocadastro{
+  #usuariocadastro{
     margin-top: 5%;
     margin
     }
 
-    #titulousuario, #titulomoderacao, #moderacaocadastro{
+    #titulousuario{
         display: none;
     }
 
