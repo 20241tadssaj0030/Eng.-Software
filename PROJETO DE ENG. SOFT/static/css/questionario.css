@@ -34,3 +34,24 @@
 button:hover{
   background-color: #0c440e;
   }
+
+#table1, #table2{
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
+
+td {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
