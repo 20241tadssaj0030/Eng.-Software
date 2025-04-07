@@ -55,3 +55,18 @@ td {
   box-sizing: border-box;
   border: 2px solid #ccc;
 }
+
+input {
+  width: 2%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+}
+
+#p1, #p2, #p3e, #p7f, #p8b, #p10h{
+  width: 70%;
+}

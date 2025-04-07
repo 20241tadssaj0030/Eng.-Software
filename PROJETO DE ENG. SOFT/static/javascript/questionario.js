@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll(".section"); // Seleciona todas as divs com a classe 'section'
     const buttons = document.querySelectorAll("button");
+    const radios = document.querySelectorAll('input[name="pergunta10"][type="radio"]');
+
 
     sections.forEach((section, index) => {
         if (index !== 0) {
